@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Sprints para para el Proyecto
 
-You can use the [editor on GitHub](https://github.com/kleix/Proyect/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+En esta página se muestran los contenidos de los diversos sprints llevados a cabo durante la realización del Proyecto TFG.
 
 ### Markdown
 
