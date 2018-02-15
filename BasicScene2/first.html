@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escena Basica A-frame</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+<body>
+
+    <a-scene>
+        <a-box
+            position="3.5 1 -3"
+            rotation= "0 90 0"
+            scale= "2 2 2"
+            src= "https://github.com/jgbarah/aframe-playground/blob/master/figures-01/molinos-bw.jpg">
+        </a-box>
+
+        <a-sphere position="0 1.25 -5" radius="1.25" src="https://github.com/jgbarah/aframe-playground/blob/master/figures-01/soil.jpg"></a-sphere>
+        <a-cylinder position="1 1.25 -3" radius="0.5" height="2.5" src="lib/bands.jpg"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" src="https://github.com/jgbarah/aframe-playground/blob/master/figures-01/window.jpg"></a-plane>
+        <a-sky color="grey"></a-sky>
+
+
+    </a-scene>
+
+
+</body>
+</html>
