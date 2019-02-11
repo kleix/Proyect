@@ -8,7 +8,7 @@ Primer sprint de introducción en el cuál llevo a cabo pequeñas pruebas y tuto
 
 Dicho periodo consta de dos semanas, desde el 30-01-2018 hasta el 14-02-2018, durante el cuál se llevan a cabo las siguientes pruebas:
 
-* [Basic Scene](BasicScene/README.md)
+* [Basic Scene](BasicScene2/README.md)
 
 
 ### Sprint 1
