@@ -2,16 +2,16 @@
 
 En esta página se muestran los contenidos de los diversos sprints llevados a cabo durante la realización del Proyecto TFG.
 
-### Sprint 1
+### Sprint 0
 
-Primer sprint durante el cuál se realizan pequeñas pruebas y tutoriales acerca del framework A-Frame, contenidos en su documentación.
+Primer sprint de introducción en el cuál llevo a cabo pequeñas pruebas y tutoriales acerca del framework A-Frame, contenidos en su documentación.
 
 Dicho periodo consta de dos semanas, desde el 30-01-2018 hasta el 14-02-2018, durante el cuál se llevan a cabo las siguientes pruebas:
 
-* [Basic Scene](figures-01/README.md)
+* [Basic Scene](BasicScene/README.md)
 
 
-### Sprint 2
+### Sprint 1
 
 Sprint durante el cuál se continuan con las pruebas iniciadas en el sprint anterior y en el que intento dar un paso más probando con las gráficas de barras, probando diversos modelos, tomando los datos de varias fuentes, etc.
 
