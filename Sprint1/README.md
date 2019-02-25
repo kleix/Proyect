@@ -24,7 +24,7 @@ de las barras, cambia el color de ésta.
 ## Gráfica 2
 
 En este segunda gráfica el objetivo es añadir alguna pequeña variante más a la gráfica 1. En este caso, añado más barras a la gráfica, en la que el tamaño de la barra va en escala ascendente.
-Además le añado la entidad 'cursos' dentro de la entidad 'a-camera', para controlar las acciones del ratón pero sin necesidad de mostrar
+Además le añado la entidad 'cursor' dentro de la entidad 'a-camera', para controlar las acciones del ratón pero sin necesidad de mostrar
 el cursos como pasaba en el ejemplo anterior.
 ```
 <a-camera>
