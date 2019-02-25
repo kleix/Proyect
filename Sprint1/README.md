@@ -3,7 +3,7 @@
 En los primeros pasos del Sprint 1, el objetivo es entrar en el terreno de las gráficas de barras y empezar a jugar 
 con las posibilidades que nos da A-Frame en la visualización de los datos que obtenemos de dichas gráficas.
 
-## Grafica 1
+## Gráfica 1
 
 Esta primera parte del Sprint 1 consta de tres documentos HTML que muestran diferentes gráficas cada uno con pequeñas variaciones en
 cada una de ellas.
@@ -19,3 +19,20 @@ Son unicamente cuatro barras, donde la altura de cada barra se introcuce en el p
 * [Ejemplo-3](https://kleix.github.io/Proyect/Sprint1/Grafica1/index3.html) - En este tercer ejemplo cojo la gráfica del ejemplo 2 y le añado alguna 
 pequeña variante, como la entidad camera en el documento HTML, para poder controlar las acciones del raton, de modod que cuando el cursor se coloca en alguna
 de las barras, cambia el color de ésta.
+
+
+## Gráfica 2
+
+En este segunda gráfica el objetivo es añadir alguna pequeña variante más a la gráfica 1. En este caso, añado más barras a la gráfica, en la que el tamaño de la barra va en escala ascendente.
+Además le añado la entidad 'cursos' dentro de la entidad 'a-camera', para controlar las acciones del ratón pero sin necesidad de mostrar
+el cursos como pasaba en el ejemplo anterior.
+```
+<a-camera>
+    <a-entity cursor= "rayOrigin: mouse" ></a-entity>
+</a-camera>
+```
+
+Así, cada vez que se hace click en alguna de las barras de la gráfica, ésta cambia de color al rojo. Y cuando se vuelve a hacer click en la barra de color rojo, vuelve a su color original.
+
+Puedes visualizar la gráfica aquí: [Gráfica 2](https://kleix.github.io/Proyect/Sprint1/Grafica2/index.html)
+
