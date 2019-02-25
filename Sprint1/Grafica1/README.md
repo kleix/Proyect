@@ -1,8 +1,5 @@
 ## Grafica 1
 
-En los primeros pasos del Sprint 1, el objetivo es entrar en el terreno de las gráficas de barras y empezar a jugar 
-con las posibilidades que nos da A-Frame en la visualización de los datos que obtenemos de dichas gráficas.
-
 Esta primera parte del Sprint 1 consta de tres documentos HTML que muestran diferentes gráficas cada uno con pequeñas variaciones en
 cada una de ellas.
 
