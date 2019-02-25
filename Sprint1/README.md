@@ -42,4 +42,9 @@ Puedes visualizar la gráfica aquí: [Gráfica 2](https://kleix.github.io/Proyec
 Partiendo de la gráfica 2, añado los ejex X,Y,Z a la gráfica, mantengo el mismo efecto al ratón, pero cambiando el color cada vez que hace click a alguna de las barras, e incorporo un cuadro de diálogo en la ventana superior derecha que me informa de la altura de la barra en la que está situado el cursor del ratón. 
 
  * [Gráfica 3](https://kleix.github.io/Proyect/Sprint1/Grafica3/index.html)
+ 
+ 
+ ## Gráfica 4
+ 
+ En esta gráfica quito el cuadro de diálogo mostrado en el ejemplo anterior y mi objetivo es mostrar la altura de cada barra cada vez que el ratón esté situado en dicha barra, pero en este caso mostrarlo como un simple texto encima de la barra correspondiente.
 
