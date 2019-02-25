@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafica de barras</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+    <!-- jQuery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <!--<script src="//code.jquery.com/jquery-1.12.4.js"></script>-->
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+    <script src="js/histogram.js"></script>
+    <script src="js/aframe-line.js"></script>
+
+</head>
+<body>
+
+    <a-scene id="escena" inspector>
+        <a-entity histogram></a-entity>
+
+        <a-camera>
+            <a-entity cursor= "rayOrigin: mouse" ></a-entity>
+        </a-camera>
+
+        <a-sky color="#FFF5EE"></a-sky>
+
+    </a-scene>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafica de barras</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+
+    <script src="js/histogram.js"></script>
+    <script src="js/aframe-line.js"></script>
+
+</head>
+<body>
+
+    <a-scene inspector>
+        <a-entity histogram></a-entity>
+
+        <a-camera>
+            <a-entity cursor= "rayOrigin: mouse" ></a-entity>
+        </a-camera>
+
+        <a-sky color="#FFF5EE"></a-sky>
+
+    </a-scene>
+
+</body>
+</html>
