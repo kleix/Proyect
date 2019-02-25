@@ -17,8 +17,7 @@ Sprint durante el cuál se continuan con las pruebas iniciadas en el sprint ante
 
 Dicho periodo consta de unas cuatro semanas, durante el cuál se llevan a cabo las siguientes pruebas:
 
-* [Grafica 1](Sprint1/README.md)
-* [Grafica 2](Sprint1/Grafica2/README.md)
+* [Gráficas Sprint-1](Sprint1/README.md)
 
 
 
