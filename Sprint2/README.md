@@ -77,7 +77,7 @@ function getTree (node, nivel){
 De forma que por consola nos muestra una coleccion de elementos con cuatro propiedades: el nombre del Nodo, el propio nodo con todos sus
 atributos, el nivel de profundidad en el que se encuentra dentro del árbol del DOM y un array de sus nodos hijo si los tuviera (y cada uno estos hijos muestra estas cuatro mismas propiedades).
 
-Esto se puede ver en el propio Index: [Demo-Sprint2](https://kleix.github.io/Proyect/Sprint2/index.html)
+Esto se puede ver en el propio Index: [Demo-Sprint2](https://kleix.github.io/Proyect/Sprint2/index-01.html)
 
 
 
