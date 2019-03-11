@@ -1,6 +1,7 @@
 ## Sprints para para el Proyecto
 
-En esta página se muestran los contenidos de los diversos sprints llevados a cabo durante la realización del Proyecto TFG.
+En esta página se muestran los contenidos de los diversos sprints llevados a cabo durante la realización del Proyecto TFG, que consistirá 
+en la visualización del árbol de elementos del DOM de un HTML como entidades en 3D a través del framework A-Frame.
 
 ### Sprint 0
 
@@ -18,6 +19,16 @@ Sprint durante el cuál se continuan con las pruebas iniciadas en el sprint ante
 Dicho periodo consta de unas cuatro semanas, durante el cuál se llevan a cabo las siguientes pruebas:
 
 * [Gráficas Sprint-1](Sprint1/README.md)
+
+
+### Sprint 2
+
+En este momento me centro más en los primeros puntos clave del proyecto. Durante esta fase el objetivo es recorrer recursivamente los elementos del Body del DOM y sus hijos, para posteriormente mostrarlo por consola. 
+
+* [Demos Sprint-2](Sprint2/README.md)
+
+
+
 
 
 
