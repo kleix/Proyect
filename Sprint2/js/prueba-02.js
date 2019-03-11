@@ -58,6 +58,6 @@ window.onload = function() {
     console.log("---------------");
 
     //var sceneE1 = document.createElement('a-scene');
-    leerTree(tree.hijos);
+    //leerTree(tree.hijos);
 };
 
