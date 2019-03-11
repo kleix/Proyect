@@ -38,10 +38,10 @@ sus nodos hijos, y éstos a su vez sus nodos hijos si los tuvieran, y así suces
 Para ello, hacemos una función recursiva donde le pasamos el propio Body y el nivel 0, de forma que dentro de esta función incrementamos 
 el nivel y se llama a misma pasándole cada elemento del DOM que encuentre y el nivel de profundidad del DOM en el que se encuentra.
 
-Para una primera demo, en  ### js/prueba-01.js nos devuelve una array de elementos, donde cada elemento tiene dos propiedades: el nodo
+Para una primera demo, en  **js/prueba-01.js** nos devuelve una array de elementos, donde cada elemento tiene dos propiedades: el nodo
 con todas sus propiedades, y el nivel en el que se encuentra dentro del nodo.
 
-En una segunda demo, en ### js/prueba-02.js tenemos la función que se recorre recursivamente el Body que se muestra a continuación:
+En una segunda demo, en ### **js/prueba-02.js** tenemos la función que se recorre recursivamente el Body que se muestra a continuación:
 
 ```
 function getTree (node, nivel){
