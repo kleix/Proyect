@@ -31,7 +31,7 @@ pocos elementos, como se muestra a continuación:
 </body>
 ```
 
-Como se observa, únicamente tenemos un <h1>, un <p> y una lista de elementos, donde el último elemento tiene a su vez anidado
+Como se observa, únicamente tenemos un h1, un p y una lista de elementos, donde el último elemento tiene a su vez anidado
 otra lista con un único elemento.
 Nuestro objetivo es que se recorra recursivamente todos los elementos del Body, de modo que en la consola nos los muestre todos, así como
 sus nodos hijos, y éstos a su vez sus nodos hijos si los tuvieran, y así sucesivamente.
