@@ -52,7 +52,6 @@ Esto se puede ver en **js/prueba-03.js**
 El resultado final se muestra a continuación:
 
 
-![alt text](C:/Users/assub/Desktop/Proyect/imagenes/sprint3-01.png?raw=true "Imagen 1")
-
+<img width="623" alt="sprint3-01" src="https://user-images.githubusercontent.com/5637203/56079045-17d65480-5def-11e9-8cbf-66220d5d54fd.PNG">
 
     
