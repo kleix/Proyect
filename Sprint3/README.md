@@ -41,6 +41,7 @@ y que se ajusta al tamaño de la entidad BODY.
 En primer lugar, mostramos el Body como una entidad sobre la que se van a situar el resto de elementos. Para ello, la colocamos en la
 posición A-Frame (0,0,0) y hacemos un cambio en sus dimensiones para que se ajuste a la escena, de tal forma que las dimensiones de
 la entidad son las siguientes:
+
         * El lado X se corresponde con la altura del elemento en el DOM dividido por un factor 10
         * El lado Y se corresponde al nivel del elemento en el árbol del DOM
         * EL lado Z se corresponde con la anchura del elemento en el DOM dividido por un factor 100
@@ -54,7 +55,7 @@ El resultado final se muestra a continuación:
 
 <img width="623" alt="sprint3-01" src="https://user-images.githubusercontent.com/5637203/56079045-17d65480-5def-11e9-8cbf-66220d5d54fd.PNG">
 
-En las siguientes imagenes de muestra la escena a partir del Inspector de A-Frame donde vemos que las entidades del DOM se 
+En las siguientes imagenes se muestra la escena a partir del Inspector de A-Frame donde vemos que las entidades del DOM se 
 ajustan correctamente dentro de la entidad Body.
 
 <img width="558" alt="sprint3-02" src="https://user-images.githubusercontent.com/5637203/56079060-684db200-5def-11e9-9972-c51ac4be35b7.PNG">
