@@ -51,7 +51,8 @@ Esto se puede ver en **js/prueba-03.js**
 
 El resultado final se muestra a continuación:
 
-![alt text](C:/Users/assub/Desktop/Proyect/imagenes/sprint3-01.png)
+
+![alt text](C:/Users/assub/Desktop/Proyect/imagenes/sprint3-01.png?raw=true "Imagen 1")
 
 
     
