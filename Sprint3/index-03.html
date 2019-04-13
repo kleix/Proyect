@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint-3</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="../Pruebas/js/jquery-3.3.1.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+
+    <script src="js/prueba-03.js"></script>
+</head>
+<body>
+    <h1> Prueba con los Elementos del DOM</h1>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis auctor dui vel ante imperdiet hendrerit. In sollicitudin ante ultrices,
+        finibus elit sit amet, accumsan enim. Integer imperdiet tempor varius. Aliquam
+        hendrerit ultrices ligula, eleifend bibendum ligula suscipit tempor. Suspendisse
+        aliquam dictum tristique. Curabitur luctus nisi sit amet dolor varius, sed egestas
+        purus tristique. Integer aliquam non lacus at pellentesque. Etiam vel nibh elementum
+        odio scelerisque ullamcorper. Nam fermentum lorem sed auctor pretium. Pellentesque
+        id scelerisque nisi.
+    </p>
+
+    <p id="pruebaP">
+        El quinto planeta era muy curioso. Era el más pequeño de todos, pues apenas cabían en él un farol
+        y el farolero que lo habitaba. El principito no lograba explicarse para qué servirían allí, en el cielo,
+        en un planeta sin casas y sin población un farol y un farolero.
+    </p>
+
+    <h3> Ejemplo de Encabezado h3 </h3>
+
+    <div id="myEmbeddedScene">
+        <a-scene id="escena" embedded>
+            <a-entity camera look-controls position="0 3.6 33"></a-entity>
+            <a-entity id="comp-html" comp-html></a-entity>
+            <!--<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
+        </a-scene>
+    </div>
+
+</body>
+</html>
