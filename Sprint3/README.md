@@ -54,4 +54,12 @@ El resultado final se muestra a continuación:
 
 <img width="623" alt="sprint3-01" src="https://user-images.githubusercontent.com/5637203/56079045-17d65480-5def-11e9-8cbf-66220d5d54fd.PNG">
 
+En las siguientes imagenes de muestra la escena a partir del Inspector de A-Frame donde vemos que las entidades del DOM se 
+ajustan correctamente dentro de la entidad Body.
+
+<img width="558" alt="sprint3-02" src="https://user-images.githubusercontent.com/5637203/56079060-684db200-5def-11e9-9972-c51ac4be35b7.PNG">
+
+
+<img width="263" alt="sprint3-03" src="https://user-images.githubusercontent.com/5637203/56079067-70a5ed00-5def-11e9-9c10-afd2ee383e4d.PNG">
+
     
