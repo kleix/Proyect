@@ -28,6 +28,12 @@ En este momento me centro más en los primeros puntos clave del proyecto. Durant
 * [Demos Sprint-2](Sprint2/README.md)
 
 
+### Sprint 3
+
+En esta fase parto de un documento HTML con unos cuántos elementos sin hijos y el objetivo es mostrar tanto el Body como dichos elementos como entidades A-Frame y respresentarlo en la escena.
+
+* [Demos Sprint-3](Sprint3/README.md)
+
 
 
 
