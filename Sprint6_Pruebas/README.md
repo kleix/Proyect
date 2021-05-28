@@ -70,7 +70,7 @@ Visto desde el Inspector:
 
 ![alt text](img/Pruebas_Sprint6_02.PNG)
 
-Como se observa, en esta priemra prueba no se carga correctamente la imagen contenida en el canvas con id=canvas2 en el primer plano. 
+Como se observa, en esta primera prueba no se carga correctamente la imagen contenida en el canvas con id=canvas2 en el primer plano. 
 
 
 
