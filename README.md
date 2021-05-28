@@ -50,7 +50,7 @@ En este Sprint se corrigen algunos errores de la representación anterior, las p
 ### Sprint 6
 En esta fase, con la representación base de la escena, se llevan a cabo algunos aportes extras como la renderización de cada elemento del DOM para añadirlo como textura de su entidad correspondiente, la modificación de la entidad a-camera para poder menajarla con el teclado o introducir una entidad contenedora semitransparente con las dimensiones reales de la caja que contiene cada elemento HTML.
 
-* [Prueba1 Sprint-6](Sprint6/README.md)
+* [Pruebas Sprint-6](Sprint6_Pruebas/README.md)
 
 
 
