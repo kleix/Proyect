@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba Renderización Elementos HTML con imagen</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="src/prueba01.css">
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <script src="dist/html2canvas.min.js"></script>
+    <script src="js/prueba-06_01.js"></script>
+
+
+</head>
+<body>
+
+<div id="elem1">
+    <h1>Ejemplo documento HTML con imagen</h1>
+</div>
+<div >
+    <img id="imagenMad" src="https://www.theprincipalmadridhotel.com/content/imgsxml/galerias/panel_herohome/1/6690.jpg" alt="">
+</div>
+
+<a-scene start>
+    <a-assets>
+        <canvas id="canvas" ></canvas>
+        <canvas id="canvas2" ></canvas>
+    </a-assets>
+    <a-entity id="elemBox1"
+              geometry="primitive: box; width: 4; height: 2; depth: 8"
+              position="8 0.5 -4" rotation="0 0 0"
+              material="color: blue">
+    </a-entity>
+    <a-entity id="elemBox2"
+              geometry="primitive: box; width: 8; height: 2; depth: 8"
+              position="-3 0.5 -4" rotation="0 0 0"
+              material="color: #2E7736">
+    </a-entity>
+
+    <a-camera wasd-controls position="0 5.5 9"></a-camera>
+
+</a-scene>
+
+</body>
+</html>
