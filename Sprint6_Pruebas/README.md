@@ -64,7 +64,7 @@ entidadPlane2.setAttribute("material", "src:#canvas2");
 
 EL resultado sería el siguiente: 
 
-
+![alt text](/img/Pruebas_Sprint6_01.PNG)
 
 
 
