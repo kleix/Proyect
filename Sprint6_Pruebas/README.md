@@ -66,7 +66,7 @@ EL resultado sería el siguiente:
 
 ![alt text](img/Pruebas_Sprint6_01.PNG)
 
-Visto desde ek Inspector: 
+Visto desde el Inspector: 
 
 ![alt text](img/Pruebas_Sprint6_02.PNG)
 
