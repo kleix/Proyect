@@ -53,6 +53,11 @@ En esta fase, con la representación base de la escena, se llevan a cabo algunos
 * [Pruebas Sprint-6](Sprint6_Pruebas/README.md)
 
 
+### Demo
+
+La demo final con la representación final de la escena para la visualización del documento HTML en entidades 3D.
+
+
 
 
 
