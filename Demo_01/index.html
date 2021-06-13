@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    HTML de prueba para la Demo del proyecto final.
+    Se usa como modelo el html de la página gsyc.urjc.es -->
+
+    <meta charset="UTF-8">
+    <title>Demo 01 final del Proyecto</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="src/demoStyle.css">
+    <!-- JQuery -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="dist/html2canvas.min.js"></script>
+    <script src="js/componenteDemo.js"></script>
+
+</head>
+<body class="section-front-page template-document_view"
+      dir="ltr">
+
+    <!-- Banner con logo Gsyc y Foto-->
+    <div id="visual-portal-wrapper">
+        <table class="headerbg">
+            <tr>
+                <!--<td class="headerleft">&nbsp;</td> -->
+                <td class="headermid" >
+                    <a  id="aPortalLogo" accesskey="1" href="index.html">
+                        <img id="portal-logo" src="img/logo.gif" alt="" title="Logo Gsyc"/>
+                    </a>
+                </td>
+                <!--<td>&nbsp;</td> -->
+                <td class="headercorner"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Logo Urjc y Contenido Departamento-->
+    <table id="portal-columns">
+        <tr>
+            <!-- Columna con el Logo-->
+            <td id="portal-column-one">
+                <div class="portalUrjc">
+                    <p>
+                        <a class="external-link" href="http://www.urjc.es/"><img class="image-inline" src="img/image_urjc.png" alt="Logo de la URJC" /><br/></a></p>
+                    <p>
+                       <a id="ets" href="http://www.etsit.urjc.es/">ETS. de Ingeriería de Telecomunicación</a></p>
+                </div>
+            </td>
+            <!-- Columna con el Texto-->
+            <td id="portal-column-two">
+                <h1 id="TituloGsyc">Departamento de Sistemas Telemáticos y Computación (GSyC) </h1>
+
+                <p id="Descripcion">
+                    El Departamento de Sistemas Telemáticos y Computación de la
+                    <!--<a href="http://www.urjc.es/">Universidad Rey Juan Carlos</a> -->
+                    Universidad Rey Juan Carlos
+                    (Madrid, España) tiene como actividades
+                    principales la docencia y la investigación en las áreas de Ingeniería
+                    Telemática y Ciencia de la Computación. Por motivos históricos, su
+                    acrónimo es GSyC (Grupo de Sistemas y Comunicaciones).&nbsp;Está adscrito a la
+                    Escuela Técnica Superior de Ingeniería de Telecomunicación
+                    <!--<a href="http://www.etsit.urjc.es/"> Escuela Técnica Superior de Ingeniería de Telecomunicación</a> -->
+                </p>
+
+                <p id="Ubicacion">Ubicación: <br> <br>&nbsp;Cómo llegar al&nbsp;
+                    <a class="external-link" href="http://www.urjc.es/comollegar/fuenlabrada/cll_fuenlabrada.html">Campus de Fuenlabrada</a>.
+
+                </p>
+                <!--<ul>
+                    <li id="Ubicacion2">Cómo llegar al&nbsp;
+                        <a class="external-link" href="http://www.urjc.es/comollegar/fuenlabrada/cll_fuenlabrada.html">Campus de Fuenlabrada</a>.
+                    </li>
+                </ul> -->
+            </td>
+        </tr>
+    </table>
+
+    <!--<div id="Grupos">
+        <p id ="GruposInves">Grupos de investigación</p>
+        <ul>
+            <li><a href="http://libresoft.urjc.es/">GSyC/LibreSoft</a>: Ingeniería del software libre</li>
+            <li><a href="http://lsub.org/">Laboratorio de Sistemas</a> (ls): Hacemos sistemas que funcionan.</li>
+            <li><a href="http://ladyr.es/">Laboratorio de Algoritmia Distribuida y Redes</a></li>
+            <li><a href="http://mobiquo.gsyc.es/">GSyC/MobiQuo</a></li>
+            <li><a href="http://gsyc.escet.urjc.es/robotica/">Robótica</a></li>
+        </ul>
+    </div> -->
+
+    <!-- Imagen Uni -->
+    <div>
+        <img id="ImagenUni" src="img/Uni_02.jpg" alt="" title="Imagen URJC Fuenlabrada"/>
+    </div>
+
+
+
+
+    <div id="myEmbeddedScene">
+        <a-scene id="escena" embedded>
+            <a-assets id="asst">
+            </a-assets>
+
+            <a-entity movement-controls="fly: true">
+                <a-entity camera look-controls position="5 15.6 40"></a-entity>
+            </a-entity>
+            <a-entity id="comp-html" comp-html></a-entity>
+        </a-scene>
+    </div>
+
+</body>
+</html>

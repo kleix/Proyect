@@ -1,0 +1,119 @@
+body {
+    padding-left: 1em !important;
+    font: 69% verdana, arial, helvetica, sans-serif;
+    background-color: White;
+    color: Black;
+    margin: 0;
+    height: 1000px;
+}
+#visual-portal-wrapper {
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: 100%;
+}
+
+a {
+    color: #003399;
+    background-color: transparent;
+}
+h1 {
+    margin-left: 50px;
+    margin-bottom: 1em;
+}
+
+.headercorner{
+    background-image: url(../img/headercorner.png);
+    background-repeat: no-repeat;
+    width:420px;
+    background-position: right top;
+}
+.headerleft {
+    background-image: url(../img/headerleft.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 133px;
+    width: 8px;
+}
+.headerbg{
+    background-image: url(../img/headerbg.gif);
+    height:133px;
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+.headermid{
+    height:133px;
+    width: 1400px;
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+#aPortalLogo{
+    display: block;
+    height: 87px;
+    width: 189px;
+}
+
+#portal-logo{
+    position: absolute;
+    z-index: 5;
+    top: 3em;
+    left: 2em;
+    border: 0;
+    padding: 0;
+    height: 87px;
+    width: 189px;
+}
+#escena {
+    margin-top: 100px;
+    height: 600px;
+    width: 1500px;
+}
+#portal-columns {
+    width: 100% !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#portal-column-one {
+    vertical-align: top;
+    width: 16em;
+    border-collapse: collapse;
+    padding: 0;
+}
+#portal-column-two {
+    padding: 1em 1em 2em 1em ;
+    background: White;
+    margin: 0;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+#ets {
+    text-align: center;
+    line-height: 1.5em;
+}
+#Descripcion{
+    margin-left: 50px;
+    font-size: 150%;
+}
+#Ubicacion{
+    margin-left: 50px;
+    font-size: 150%;
+}
+#Ubicacion2{
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+#Grupos{
+    margin-left: 250px;
+    font-size: 150%;
+}
+
+#ImagenUni{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 500px;
+}
