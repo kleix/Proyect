@@ -1,0 +1,23 @@
+#escena {
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 600px;
+    width: 1800px;
+}
+
+#banner{
+    background-image: url("../assets/img/home-bg.jpg");
+}
+
+#listaItems{
+    margin-top: 60px;
+}
+
+#ImagenUni{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 500px;
+}

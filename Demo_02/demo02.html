@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo 02 para el Proyecto</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="css/demo02_Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- html2canvas -->
+    <script src="dist/html2canvas.min.js"></script>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/componenteDemo.js"></script>
+</head>
+<body>
+
+    <!-- Banner Jumbotron-->
+    <div  class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Demo 02</h1>
+                <p class="lead">Documento de prueba para el proyecto de visualización del HTML en realidad virtual</p>
+            </div>
+    </div>
+
+    <div id="listaItems">
+        <div class="list-group">
+            <!--<a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                The current link item
+            </a> -->
+            <a href="https://gsyc.urjc.es/index.html" class="list-group-item list-group-item-success list-group-item-action">Departamento de Sistemas Telemáticos y Computación (GSyC) </a>
+            <a href="https://gsyc.urjc.es/personal.html" class="list-group-item list-group-item-success list-group-item-action">Personal GSyC</a>
+            <a href="https://gsyc.urjc.es/publicaciones.html" class="list-group-item list-group-item-success list-group-item-action">Publicaciones GSyC</a>
+            <a href="https://gsyc.urjc.es/informes-tecnicos.html" class="list-group-item list-group-item-success list-group-item-action">Informes Técnicos GSyC</a>
+        </div>
+
+    </div>
+
+    <!-- Imagen Uni -->
+    <div>
+        <img id="ImagenUni" src="assets/img/home-bg.jpg" alt="" title="Imagen URJC Fuenlabrada"/>
+    </div>
+
+
+    <!-- Escena A_Frame-->
+    <div id="myEmbeddedScene">
+        <a-scene id="escena" embedded>
+            <a-assets id="asst">
+            </a-assets>
+
+            <a-entity movement-controls="fly: true">
+                <a-entity camera look-controls position="5 19.6 40"></a-entity>
+            </a-entity>
+            <a-entity id="comp-html" comp-html></a-entity>
+        </a-scene>
+    </div>
+
+</body>
+</html>
