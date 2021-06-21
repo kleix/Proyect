@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo 03 para el proyecto</title>
+
+    <!-- Script de Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+
+    <!-- html2canvas -->
+    <script src="dist/html2canvas.min.js"></script>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--<script src="js/componenteDemo.js"></script> -->
+</head>
+<body>
+
+  <!-- Banner -->
+  <div id ="banner">
+      <table>
+          <tr id="row-one">
+              <td id="column-one">
+                  <img id="ImagenLogo" src="assets/img/URJC-emblema.jpg" alt="" title="Imagen URJC Fuenlabrada"/>
+              </td>
+
+              <td id="column-two">
+                  <h1> Demo 03 para el Proyecto</h1>
+                  <p>  Documento para la visualización de los elementos del HTML en realidad virtual</p>
+              </td>
+
+          </tr>
+      </table>
+  </div>
+
+  <!-- Lista -->
+  <div id="listaItems" class="box">
+      <ul id="items" class="list-group">
+          <a id="item1" href="https://urjc.es/universidad/presentacion" class="list-group-item">Universidad</a>
+          <a id="item2" href="https://urjc.es/estudios/grado" class="list-group-item">Estudios</a>
+          <a id="item3" href="https://urjc.es/i-d-i" class="list-group-item">Internacional</a>
+          <a id="item4" href="https://urjc.es/internacional/inicio" class="list-group-item">I + D + i</a>
+          <a id="item5" href="https://urjc.es/actualidad/noticias" class="list-group-item">Actualidad</a>
+      </ul>
+
+      <div class="right">
+          <img id="ImagenUni" src="assets/img/urjc_02.jpg" class="img-circle" alt="Cinque Terre">
+      </div>
+  </div>
+
+
+
+
+    <!-- Contenido -->
+  <!--<table>
+      <tr>
+          <td id="listaItems">
+              <ul class="list-group">
+                  <a id="item1" href="https://urjc.es/universidad/presentacion" class="list-group-item">Universidad</a>
+                  <a id="item2" href="https://urjc.es/estudios/grado" class="list-group-item">Estudios</a>
+                  <a id="item3" href="https://urjc.es/i-d-i" class="list-group-item">Internacional</a>
+                  <a id="item4" href="https://urjc.es/internacional/inicio" class="list-group-item">I + D + i</a>
+                  <a id="item5" href="https://urjc.es/actualidad/noticias" class="list-group-item">Actualidad</a>
+              </ul>
+          </td>
+
+          <td>
+              <img id="ImagenUni" src="assets/img/urjc_02.jpg" class="img-circle" alt="Cinque Terre">
+          </td>
+      </tr>
+  </table> -->
+
+
+  <!-- Párrafo -->
+  <p id="content">
+      Este proyecto consiste en la visualizacion de un documento HTML en realidad virtual, me-
+      diante entidades en 3D.
+      Todas las paginas web están construidas a partir del lenguaje y estándar denominado HTML.
+      Para poder representar documentos HTML, existe un modelo estandar denominado DOM que
+      proporciona una estructura basada en arbol con la que poder representar de forma jerarquica
+      los elementos que componen la pagina HTML. Toda esta representación se lleva a cabo en el
+      propio navegador web utilizando las APIs JS del navegador, basadas en el lenguaje JavaScript.
+      Para la visualizacion en 3D, se ha utilizado el framework A-Frame, que se trata de un frame-
+      work web de codigo abierto para crear experiencias de realidad virtual(VR). Se basa en código
+      HTML, de modo que su exito se basa en su sencillez, ya que a partir de simples etiquetas,
+      A-Frame se encarga de generar los modelos 3D, la configuracion de la realidad virtual y los
+      controles predeterminados.
+      Se ha utilizado como modelo un documento HTML con distintas etiquetas de varios tipos,
+      y herencia en arbol DOM para poder ver con mayor claridad cada una de las entidades que
+      componen el documento. Todo ello permite una aproximacion a visualizar de forma clara los
+      elementos de un HTML, abriendo así camino para poder depurar codigo HTML en realidad
+      virtual.
+  </p>
+
+  <!-- Escena A_Frame-->
+  <div id="myEmbeddedScene">
+      <a-scene id="escena" embedded>
+          <a-assets id="asst">
+          </a-assets>
+
+          <a-entity movement-controls="fly: true">
+              <a-entity camera look-controls position="5 19.6 40"></a-entity>
+          </a-entity>
+          <a-entity id="comp-html" comp-html></a-entity>
+      </a-scene>
+  </div>
+
+</body>
+</html>
