@@ -11,7 +11,9 @@
     <!-- Script de Aframe -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/elbobo/aframe-multisrc-component/b6d23310/dist/0.3/aframe-multisrc-component.js"></script>
-    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+    <!--<script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
 
     <!-- Estilo CSS -->
     <link rel="stylesheet" type="text/css" href="src/demoStyle.css">
@@ -106,7 +108,7 @@
             </a-assets>
 
             <a-entity movement-controls="fly: true">
-                <a-entity camera look-controls position="5 15.6 40"></a-entity>
+                <a-entity camera position="5 15.6 40" look-controls wasd-controls="acceleration:80"></a-entity>
             </a-entity>
             <a-entity id="comp-html" comp-html></a-entity>
         </a-scene>
